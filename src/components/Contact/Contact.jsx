@@ -7,6 +7,7 @@ import {
   ImageWrapper,
   MemberWrapper,
   TeamMemberDescription,
+  TeamMemberEmail,
   TeamMemberName,
   TextContainer,
   TextGreyContainer,
@@ -23,7 +24,7 @@ function Contact() {
         }
       /> */}
       <DescriptionContainer>
-        <TitleContainer>TEAM</TitleContainer>
+        <TitleContainer>Project Team</TitleContainer>
         <div>
           <TextContainer>
             We are a team of six master’s students, passionate about travel and
@@ -51,6 +52,7 @@ function Contact() {
           </ImageWrapper>
           <TeamMemberName>Maria Lipan</TeamMemberName>
           <TeamMemberDescription>Product Owner</TeamMemberDescription>
+          <TeamMemberEmail>andra_maria.lipan@stud.acs.upb.ro</TeamMemberEmail>
         </MemberWrapper>
         <MemberWrapper>
           <ImageWrapper>
@@ -62,6 +64,7 @@ function Contact() {
           </ImageWrapper>
           <TeamMemberName>Mihnea Vrabie</TeamMemberName>
           <TeamMemberDescription>Backend Developer</TeamMemberDescription>
+          <TeamMemberEmail>mihnea.vrabie@stud.acs.upb.ro</TeamMemberEmail>
         </MemberWrapper>
         <MemberWrapper>
           <ImageWrapper>
@@ -71,8 +74,9 @@ function Contact() {
               }
             />
           </ImageWrapper>
-          <TeamMemberName>Ioan Stanciu</TeamMemberName>
+          <TeamMemberName>Ionut Stanciu</TeamMemberName>
           <TeamMemberDescription>Frontend Developer</TeamMemberDescription>
+          <TeamMemberEmail>ioan_razvan.stanciu@stud.acs.upb.ro</TeamMemberEmail>
         </MemberWrapper>
       </ImagesContainer>
       <ImagesContainer>
@@ -86,6 +90,7 @@ function Contact() {
           </ImageWrapper>
           <TeamMemberName>Alexandra Petre</TeamMemberName>
           <TeamMemberDescription> Frontend Developer</TeamMemberDescription>
+          <TeamMemberEmail>alexandra.petre0305@stud.acs.upb.ro</TeamMemberEmail>
         </MemberWrapper>
         <MemberWrapper>
           <ImageWrapper>
@@ -100,6 +105,7 @@ function Contact() {
             {" "}
             Project Manager & UI/UX Designer
           </TeamMemberDescription>
+          <TeamMemberEmail>andreea.voinila@stud.faima.upb.ro</TeamMemberEmail>
         </MemberWrapper>
         <MemberWrapper>
           <ImageWrapper>
@@ -111,6 +117,7 @@ function Contact() {
           </ImageWrapper>
           <TeamMemberName> Eduard Tudor </TeamMemberName>
           <TeamMemberDescription> Backend Developer</TeamMemberDescription>
+          <TeamMemberEmail>eduard.tudor@stud.acs.upb.ro</TeamMemberEmail>
         </MemberWrapper>
       </ImagesContainer>
     </ContactContainer>
