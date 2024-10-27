@@ -12,7 +12,7 @@ function Home() {
     <HomeContainer>
       <HomeImageBackground
         src={
-          "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsJTIwbmF0dXJlfGVufDB8fDB8fHww"
+          "https://raw.githubusercontent.com/ioanrazvanstanciu/Fiki-Journey-Gem/refs/heads/main/images/home_photo.png"
         }
       />
       <HomeText>Explore The Beauty Of Our World</HomeText>
