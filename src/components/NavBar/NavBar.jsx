@@ -14,7 +14,7 @@ import { List, X } from "react-bootstrap-icons";
 
 export const routes = [
   { title: "Home", href: "home" },
-  { title: "All packages", href: "all-packages" },
+  { title: "Contact", href: "contact" },
   { title: "Add new package", href: "add-new-package" },
   { title: "Edit or delete a package", href: "edit-or-delete" },
   { title: "Reserved packages", href: "reserved-packages" },

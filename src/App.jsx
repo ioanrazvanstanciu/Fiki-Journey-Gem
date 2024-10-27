@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
-import Packages from "./components/Packages/Packages";
+import Contact from './components/Contact/Contact'
 import Package from "./components/Package/Package";
 import Add from "./components/Add/Add";
 import EditDelete from "./components/EditDelete/EditDelete";
@@ -18,7 +18,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/all-packages" element={<Packages />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/package/:id" element={<Package />} />
         <Route path="/add-new-package" element={<Add />} />
         <Route path="/edit-or-delete" element={<EditDelete />} />
