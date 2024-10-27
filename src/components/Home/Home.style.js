@@ -4,7 +4,7 @@ export const HomeContainer = styled.div``;
 
 export const HomeImageBackground = styled.img`
   width: 100%;
-  height: 100vh;
+  height: 75vh;
   object-fit: cover;
   object-position: 50%;
 `;

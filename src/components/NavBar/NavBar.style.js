@@ -134,7 +134,7 @@ export const ButtonDropdown = styled.button`
   border: none;
   position: absolute;
   top: 20px;
-  right: 90px;
+  right: 40px;
   cursor: pointer;
 
   &:hover {
