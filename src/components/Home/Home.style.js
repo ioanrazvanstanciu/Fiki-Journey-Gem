@@ -4,7 +4,7 @@ export const HomeContainer = styled.div``;
 
 export const HomeImageBackground = styled.img`
   width: 100%;
-  height: 75vh;
+  height: 85vh;
   object-fit: cover;
   object-position: 50%;
 
@@ -15,12 +15,13 @@ export const HomeImageBackground = styled.img`
 
 export const HomeImageMobileBackground = styled.img`
   width: 100%;
-  height: 75vh;
+  height: 70vh;
   object-fit: cover;
   object-position: 50%;
+  display: none;
 
-  @media screen and (min-width: 701px) {
-    display: none;
+  @media screen and (min-width: 350px) and (max-width: 700px) {
+    display: block;
   }
 `;
 

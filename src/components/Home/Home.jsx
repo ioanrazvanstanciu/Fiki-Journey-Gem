@@ -21,8 +21,6 @@ function Home() {
           "https://raw.githubusercontent.com/ioanrazvanstanciu/Fiki-Journey-Gem/refs/heads/main/images/homepage_mobile.png"
         }
       />
-      {/* "https://raw.githubusercontent.com/ioanrazvanstanciu/Fiki-Journey-Gem/refs/heads/main/images/homepage_mobile.png" */}
-
       <HomeText>Explore The Beauty Of Our World</HomeText>
       <HomeButtonsContainer>
         <HomeButtons />
