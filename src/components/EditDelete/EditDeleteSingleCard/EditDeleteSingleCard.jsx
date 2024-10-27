@@ -15,7 +15,6 @@ import {
   PretMoneda,
   PretMonedaValori,
   EditDeleteButton,
- 
 } from "./EditDeleteSingleCard.style";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import PeopleAltOutlinedIcon from "@mui/icons-material/PeopleAltOutlined";
