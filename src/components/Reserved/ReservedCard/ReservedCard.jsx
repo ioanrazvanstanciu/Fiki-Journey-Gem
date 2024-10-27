@@ -15,7 +15,7 @@ import {
   PretMoneda,
   PretMonedaValori,
   ItsReservedP,
-  ItsReservedDiv
+  ItsReservedDiv,
 } from "./ReservedCard.style";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import PeopleAltOutlinedIcon from "@mui/icons-material/PeopleAltOutlined";
@@ -36,7 +36,7 @@ function ReservedCard({
   moneda_sejur,
 }) {
   return (
-    <Card to={`/package-reserved/${id}`}>
+    <Card to={`Fiki-Journey-Gem/package-reserved/${id}`}>
       <PrimaLinie>
         <ImageContainer>
           <Image src={imagine_pachet}></Image>
@@ -63,8 +63,11 @@ function ReservedCard({
           </DetaliiGrupate>
         </DetaliiPrimaLinie>
         <ItsReservedDiv>
-               <ItsReservedP><CheckCircleIcon />Reserved!</ItsReservedP>
-            </ItsReservedDiv>
+          <ItsReservedP>
+            <CheckCircleIcon />
+            Reserved!
+          </ItsReservedP>
+        </ItsReservedDiv>
       </PrimaLinie>
       <ADouaLinie>
         <SosirePlecare>

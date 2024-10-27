@@ -15,7 +15,6 @@ import {
   PretMoneda,
   PretMonedaValori,
   EditDeleteButton,
- 
 } from "./EditDeleteSingleCard.style";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import PeopleAltOutlinedIcon from "@mui/icons-material/PeopleAltOutlined";
@@ -68,7 +67,9 @@ function EditDeleteSingleCard({
           <div>{zi_check_out}</div>
         </SosirePlecare>
         <div>
-          <EditDeleteButton to={`/edit-or-delete/package/${id}`}>
+          <EditDeleteButton
+            to={`Fiki-Journey-Gem/edit-or-delete/package/${id}`}
+          >
             Edit / Delete
           </EditDeleteButton>
         </div>

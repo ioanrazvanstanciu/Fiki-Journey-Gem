@@ -17,19 +17,31 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/all-packages" element={<Packages />} />
-        <Route path="/package/:id" element={<Package />} />
-        <Route path="/add-new-package" element={<Add />} />
-        <Route path="/edit-or-delete" element={<EditDelete />} />
-        <Route path="reserved-packages" element={<Reserved />} />
-        <Route path="/package-reserved/:id" element={<ReservedPage />} />
-        <Route path="/add-custom-package" element={<CustomAddUser />} />
+        <Route path="Fiki-Journey-Gem/home" element={<Home />} />
+        <Route path="Fiki-Journey-Gem/all-packages" element={<Packages />} />
+        <Route path="Fiki-Journey-Gem/package/:id" element={<Package />} />
+        <Route path="Fiki-Journey-Gem/add-new-package" element={<Add />} />
         <Route
-          path="/edit-or-delete/package/:id"
+          path="Fiki-Journey-Gem/edit-or-delete"
+          element={<EditDelete />}
+        />
+        <Route
+          path="Fiki-Journey-Gem/reserved-packages"
+          element={<Reserved />}
+        />
+        <Route
+          path="Fiki-Journey-Gem/package-reserved/:id"
+          element={<ReservedPage />}
+        />
+        <Route
+          path="Fiki-Journey-Gem/add-custom-package"
+          element={<CustomAddUser />}
+        />
+        <Route
+          path="Fiki-Journey-Gem/edit-or-delete/package/:id"
           element={<EditDeleteCompleteForm />}
         />
-        <Route path="/" element={<Home />} />
+        <Route path="Fiki-Journey-Gem/" element={<Home />} />
       </Routes>
       <Footer />
     </div>

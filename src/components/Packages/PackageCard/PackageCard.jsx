@@ -15,8 +15,8 @@ import {
   PretMoneda,
   PretMonedaValori,
   ItsReservedDiv,
-  ClickForReserveP ,
-  ItsReservedP
+  ClickForReserveP,
+  ItsReservedP,
 } from "./PackageCard.style";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import PeopleAltOutlinedIcon from "@mui/icons-material/PeopleAltOutlined";
@@ -28,7 +28,7 @@ export const itsReserved = (este_rezervat) => {
   if (este_rezervat === 0) {
     return (
       <ClickForReserveP>
-        <CircleNotificationsRoundedIcon /> Click for details and reserve! 
+        <CircleNotificationsRoundedIcon /> Click for details and reserve!
       </ClickForReserveP>
     );
   } else {
@@ -55,7 +55,7 @@ function PackageCard({
   este_rezervat,
 }) {
   return (
-    <Card to={`/package/${id}`}>
+    <Card to={`Fiki-Journey-Gem/package/${id}`}>
       <PrimaLinie>
         <ImageContainer>
           <Image src={imagine_pachet}></Image>

@@ -13,12 +13,15 @@ import {
 import { List, X } from "react-bootstrap-icons";
 
 export const routes = [
-  { title: "Home", href: "home" },
-  { title: "All packages", href: "all-packages" },
-  { title: "Add new package", href: "add-new-package" },
-  { title: "Edit or delete a package", href: "edit-or-delete" },
-  { title: "Reserved packages", href: "reserved-packages" },
-  { title: "Add custom package", href: "add-custom-package" },
+  { title: "Home", href: "Fiki-Journey-Gem/home" },
+  { title: "All packages", href: "Fiki-Journey-Gem/all-packages" },
+  { title: "Add new package", href: "Fiki-Journey-Gem/add-new-package" },
+  {
+    title: "Edit or delete a package",
+    href: "Fiki-Journey-Gem/edit-or-delete",
+  },
+  { title: "Reserved packages", href: "Fiki-Journey-Gem/reserved-packages" },
+  { title: "Add custom package", href: "Fiki-Journey-Gem/add-custom-package" },
 ];
 
 function NavBar() {
@@ -52,7 +55,10 @@ function NavBar() {
 
   return (
     <NavbarContainer $isOpaque={isOpaque}>
-      <ZonaDeLogo to={`/home`} onClick={() => setActiveLink("/home")}>
+      <ZonaDeLogo
+        to={`Fiki-Journey-Gem/home`}
+        onClick={() => setActiveLink("Fiki-Journey-Gem/home")}
+      >
         <Logo src="https://cdn-icons-png.flaticon.com/512/1981/1981081.png"></Logo>
         <TitluAppText>
           <div>Journey</div>
