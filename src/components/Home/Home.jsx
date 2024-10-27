@@ -10,7 +10,7 @@ import HomeButtons from "./HomeButtons";
 function Home() {
   return (
     <HomeContainer>
-      <HomeImageBackground src={"src/assets/home_photo.png"} />
+      <HomeImageBackground src={"public/assets/home_photo.png"} />
       <HomeText>Explore The Beauty Of Our World</HomeText>
       <HomeButtonsContainer>
         <HomeButtons />
