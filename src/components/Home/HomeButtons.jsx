@@ -8,21 +8,15 @@ import { useNavigate } from "react-router-dom";
 const images = [
   {
     url: "https://bsmedia.business-standard.com/_media/bs/img/article/2018-06/03/full/1528032172-4904.jpg",
-    title: "All packages",
-    width: "40%",
-    path: "/all-packages",
+    title: "Project Overview",
+    width: "50%",
+    path: "/project-overview",
   },
   {
     url: "https://lh3.googleusercontent.com/oOuleHLzB5yFDO5xPUCslcc8WmbXw8mVTo56fZs05fL9dnxmjyQDS9wB7GwADTEMW1ie42fws1OfQTcSxiKlEWveeUJtyznV4B8w1Q=w1082-h609-n",
-    title: "Reserved packages",
-    width: "30%",
-    path: "/reserved-packages",
-  },
-  {
-    url: "https://res.klook.com/image/upload/c_fill,w_750,h_560/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/jr7ngf6eruetbfdbzfmw.jpg",
-    title: "Add custom package",
-    width: "30%",
-    path: "/add-custom-package",
+    title: "Contact",
+    width: "50%",
+    path: "/contact",
   },
 ];
 
